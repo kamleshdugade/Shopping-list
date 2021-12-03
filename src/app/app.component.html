@@ -1,0 +1,37 @@
+
+<div class="container">
+<div class="card text-center">
+
+  <h1>Shopping List</h1><hr>
+<div>
+  <input type="text" #newTodo/>
+  <button (click)="add(newTodo.value);newTodo.value='';">
+
+  <input type="text" #newTodo/>
+  <button (click)="add(newTodo.value);newTodo.value='';">Add Quantity</button>
+</div>
+<hr/>
+  <div class="container-table text-center" >
+<table class="table">
+  <tr>
+    <th>Sr No.</th>
+    <th>Product Name</th>
+    <th>Status</th>
+    <th>Action</th>
+    <th>Action</th>
+  </tr>
+  <tr *ngFor="let todo of todos">
+    <td class="first">{{todo.id}})</td>
+    <td class="first">{{todo.label}}</td>
+    <td class="first">{{todo.done ? '&#10003;' : '&#10005;'}}</td>
+    <td class="first"><button id="select_btn" (click)="toggle(todo)">Select</button></td>
+    <td class="first"><button id="delete_btn" (click)="delete(todo)">Delete</button></td>
+  </tr>
+</table>
+  </div>
+  <br><b>
+  <marquee width="60%" direction="left" height="100px">
+    Make your list as per you want, You can add Item you can delete Item from this list.</marquee></b>
+
+</div>
+</div>

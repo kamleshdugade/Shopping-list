@@ -1,0 +1,52 @@
+.card{
+  background-color: #00faaf;
+
+}
+button {
+    color: #fff;
+    background-color: #000000;
+    margin-left:5px;
+    padding: 5px 5px;
+    font-family:"Calisto MT";
+    border-radius: 5px 5px 5px 5px;
+    padding-right: 5px;
+    margin-right: 10px;
+}
+button:hover {
+  background-color: #fd0101;
+  color: white;
+  color: black;
+
+}
+tr td:hover {
+
+}
+input {
+    padding: 5px;
+}
+.container{
+  border-top-width: 50px;
+  font-family:"Calisto MT";
+  width: 70%;
+  height: 100%;
+  padding-top: 3%;
+}
+.first{
+  width: 20px;
+}
+th, td {
+  padding: 10px;
+}
+
+.container-table{
+  width: 90%;
+  padding-left: 20%;
+
+}
+
+#select_btn{
+  padding: 5px 10px 5px 10px;
+}
+#delete_btn{
+  padding: 5px 10px 5px 10px;
+}
