@@ -6,14 +6,15 @@ button {
     color: #fff;
     background-color: #000000;
     margin-left:5px;
-    padding: 5px 5px;
+    padding-top: 10px;
     font-family:"Calisto MT";
     border-radius: 5px 5px 5px 5px;
     padding-right: 5px;
     margin-right: 10px;
+
 }
 button:hover {
-  background-color: #fd0101;
+  background-color: #ffffff;
   color: white;
   color: black;
 
@@ -29,10 +30,11 @@ input {
   font-family:"Calisto MT";
   width: 70%;
   height: 100%;
-  padding-top: 3%;
+  padding-top: 2%;
 }
 .first{
-  width: 20px;
+  width: 10px;
+
 }
 th, td {
   padding: 10px;
@@ -40,13 +42,25 @@ th, td {
 
 .container-table{
   width: 90%;
-  padding-left: 20%;
+  padding-left: 10%;
 
 }
-
+#add_product{
+  width: 30%;
+  padding-top: 15px;
+  margin-bottom: 1px;
+}
+#upper_btns{
+  width: 10%;
+}
 #select_btn{
-  padding: 5px 10px 5px 10px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 #delete_btn{
-  padding: 5px 10px 5px 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.table{
+
 }

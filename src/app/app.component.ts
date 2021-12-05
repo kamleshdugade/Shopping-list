@@ -6,30 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'todo-app';
+  title = 'My-List';
 
   nextId = 4;
   todos = [
-    {
-      id: 1,
-      label: 'Bring Milk',
-      done: false
-    },
-    {
-      id: 2,
-      label: 'Soya oil',
-      done: false
-    },
-    {
-      id: 3,
-      label: 'Everest Masala',
-      done: true
-    },
+    { id: 1, label: 'Bring Milk', done: false },
+    { id: 2, label: 'Soya oil', done: false},
+    { id: 3, label: 'Everest Masala', done: true},
   ];
 
   // tslint:disable-next-line:typedef
-  // @ts-ignore
-  delete(todo) {
+  delete(todo: { id: number; }) {
     this.todos = this.todos.filter(t => t.id !== todo.id);
   }
 
